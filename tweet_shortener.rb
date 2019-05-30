@@ -21,6 +21,8 @@ def word_substituter(tweet_string)
   tweet_arr.each do |word|
     if dictionary.keys.include?(word.downcase)
       new_tweet << dictionary[word]
+    else
+      new_tweet << word
     end
   end
   new_tweet.join(" ")
