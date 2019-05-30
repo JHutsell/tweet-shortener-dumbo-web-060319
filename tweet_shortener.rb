@@ -17,6 +17,8 @@ end
 
 def word_substituter(tweet_string)
   tweet_arr = tweet_string.split
-  tweet_arr.each do 
+  tweet_arr.each do |word|
+    if 
+  end
   
 end
